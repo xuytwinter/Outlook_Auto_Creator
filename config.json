@@ -4,6 +4,6 @@
     "proxy_port": "",
     "username": "",
     "password": "",
-    "chromedriver_path": "D:\\DESKTOP\\Outlook_Auto_Creator\\drivers\\chromedriver-win64\\chromedriver.exe",
+    "chromedriver_path": "",
     "api_key": "token_here"
 }

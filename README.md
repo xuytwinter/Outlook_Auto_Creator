@@ -16,6 +16,8 @@ Python script that automatically create Outlook account
 
 ## Installation
 
+For a full Chinese and English setup guide, see [ENVIRONMENT_SETUP.md](ENVIRONMENT_SETUP.md).
+
 1. Clone outlook-account-creator repository from github:
 
 ```bash

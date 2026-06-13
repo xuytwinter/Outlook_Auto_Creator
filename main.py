@@ -313,11 +313,7 @@ class AccGen:
                     service = Service(executable_path=chromedriver_path)
                     self.driver = webdriver.Chrome(service=service, options=chrome_options)
                 else:
-                    raise RuntimeError(
-                        "ChromeDriver is not configured and was not found in PATH. "
-                        "Download a ChromeDriver matching your Chrome version, then set "
-                        "chromedriver_path in config.json."
-                    )
+                    self.driver = webdriver.Chrome(options=chrome_options)
             except (NoSuchDriverException, WebDriverException) as e:
                 raise RuntimeError(
                     "Unable to start Chrome WebDriver. Install a ChromeDriver that matches "
